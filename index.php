@@ -97,7 +97,7 @@ header('Content-Type: text/html; charset=utf8');
 	$indoor_temperature_min_date = $netatmo_devices["body"]["devices"][0]["dashboard_data"]["date_max_temp"];
 	$indoor_co2 = $netatmo_devices["body"]["devices"][0]["dashboard_data"]["CO2"];
 	$indoor_noise = $netatmo_devices["body"]["devices"][0]["dashboard_data"]["Noise"];
-	$innen_pressure = $netatmo_devices["body"]["devices"][0]["dashboard_data"]["Pressure"];
+	$indoor_pressure = $netatmo_devices["body"]["devices"][0]["dashboard_data"]["Pressure"];
 	
 	/* ------------------ INNENMODUL END ------------------ */
 	
