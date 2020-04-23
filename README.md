@@ -11,3 +11,5 @@ For example:
 	const APPID	= "someonesappid";
 	const APPSECRET = "someonesappsecret";
 	const LANGUAGE  = "en";
+
+Available languages: "de", "en", "es"
