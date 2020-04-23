@@ -4,6 +4,8 @@ Informations:
 
 A simple Netatmo Weatherstation API Bootstrap (https://getbootstrap.com/) Boilerplate 
 
+Configuration:
+
 Please enter your Netatmo login data in /inc/contants.php
 
 For example:
