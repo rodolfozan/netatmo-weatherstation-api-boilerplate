@@ -1,17 +1,5 @@
 <?php 
-	header('Content-Type: text/html; charset=utf8');
-
-/* --------------------------------------------------------------------------------------------------- */	
-  // alle Fehler anzeigen
-  error_reporting(E_ALL);
-  // Fehler in der Webseite anzeigen (nicht in Produktion verwenden)
-  ini_set('display_errors', 'On');
-  // Fehler in Log-Datei schreiben (absolut oder relativ)
-  // ini_set('error_log', '/var/www/virtual/meine-domain.de/logs/php-errors.log');
-  ini_set('log_errors', 'On');
-  ini_set('error_log', 'php-errors.log');
-  // Fehler erzeugen, sodass Log-Datei entsteht
-/* --------------------------------------------------------------------------------------------------- */	
+header('Content-Type: text/html; charset=utf8');	
 	
 // Includes language files and Constants
 	include("inc/constants.php");
