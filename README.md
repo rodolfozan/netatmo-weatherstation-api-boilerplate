@@ -2,7 +2,7 @@
 
 ### Informations:
 
-A simple Netatmo Weatherstation API Bootstrap (https://getbootstrap.com/) Boilerplate 
+A simple Netatmo Weatherstation API [Bootstrap](https://getbootstrap.com/) Boilerplate 
 
 ### Configuration:
 
@@ -20,7 +20,7 @@ Available languages: "de", "en", "es"
 
 ### Demo
 
-A live example of the boilerplate can be seen at [the boileplate website](http://station.cyberninja.de/na-api/Netatmo-api/) 
+A live example of the boilerplate can be seen at [my boilerplate website](http://station.cyberninja.de/na-api/Netatmo-api/) 
 
 ### Boilerplate Screenshot:
 
