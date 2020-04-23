@@ -1,0 +1,38 @@
+{
+
+	"Main":{
+	  "Header": "Wetterstation Beuren",
+      "SubHeader": "Wetterbedingungen von einer Netatmo Wetterstation"
+	},
+	
+	"Outdoor": {
+      "Temperature": "Temperatur",
+      "Humidity": "Luftfeuchte",
+	  "TempMin": "Temp min",
+      "TempMax": "Temp max"
+   },
+
+   "Indoor": {
+      "Temperature": "Temperatur",
+      "Humidity": "Luftfeuchte",
+	  "TempMin": "Temp min",
+      "TempMax": "Temp max",
+      "Co2": "Co2 Gehalt",
+      "NoiseLevel": "Lautstärke"
+   },
+ 
+   "Windmeter": {
+      "Wind": "Wind",
+      "WindDir": "Windrichtung",
+	  "Gusts": "Böen",
+      "GustsDir": "Böenrichtung"
+   },
+   
+   "RainGauge": {
+      "Rain": "Regenrate",
+      "RainLastHr": "Letzte Std.",
+	  "RainLast24Hr": "Letzte 24 Std."
+   }
+ 
+}
+
