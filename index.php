@@ -12,16 +12,16 @@ header('Content-Type: text/html; charset=utf8');
 // Netatmo API Start
 
 // Login Data Netatmo  
-	$username		= USERNAME;
-	$password		= PASSWORD;
-	$app_id			= APPID;
+	$username	= USERNAME;
+	$password	= PASSWORD;
+	$app_id		= APPID;
 	$app_secret     = APPSECRET;
 
 // Get the Token
 	$postdata = array(
 	    'grant_type' 	=> "password",
 	    'client_id' 	=> $app_id,
-	    'client_secret' => $app_secret,
+	    'client_secret' 	=> $app_secret,
 	    'username' 		=> $username,
 	    'password' 		=> $password,
 	    'scope' 		=> 'read_station'
