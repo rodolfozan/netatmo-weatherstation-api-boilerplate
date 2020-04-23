@@ -1,10 +1,10 @@
 # netatmo-weatherstation-api-boilerplate
 
-## Informations:
+### Informations:
 
 A simple Netatmo Weatherstation API Bootstrap (https://getbootstrap.com/) Boilerplate 
 
-## Configuration:
+### Configuration:
 
 Please enter your Netatmo login data in /inc/contants.php
 
@@ -18,10 +18,10 @@ For example:
 
 Available languages: "de", "en", "es"
 
-## Demo
+### Demo
 
 A live example of the boilerplate can be seen at [the boileplate website](http://station.cyberninja.de/na-api/Netatmo-api/) 
 
-## Boilerplate Screenshot:
+### Boilerplate Screenshot:
 
 
