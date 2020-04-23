@@ -1,0 +1,37 @@
+{
+
+	"Main":{
+	  "Header": "My Weatherstation",
+      "SubHeader": "Weather Observations by Netatmo"
+	},
+	
+	"Outdoor": {
+      "Temperature": "Temperature",
+      "Humidity": "Humidity",
+	  "TempMin": "Temp min",
+      "TempMax": "Temp max"
+   },
+
+   "Indoor": {
+      "Temperature": "Temperature",
+      "Humidity": "Humidity",
+	  "TempMin": "Temp min",
+      "TempMax": "Temp max",
+      "Co2": "Co2",
+      "NoiseLevel": "Noise Level"
+   },
+ 
+   "Windmeter": {
+      "Wind": "Wind",
+      "WindDir": "Winddirection",
+	  "Gusts": "Gusts",
+      "GustsDir": "Gustsdirection"
+   },
+   
+   "RainGauge": {
+      "Rain": "Rainrate",
+      "RainLastHr": "Last Hr.",
+	  "RainLast24Hr": "Last 24 Hrs."
+   }
+ 
+}
