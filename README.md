@@ -1,5 +1,6 @@
 # netatmo-weatherstation-api-boilerplate
-A Netatmo Weatherstation API Boilerplate 
+A Netatmo Weatherstation API Bootstrap Boilerplate 
+https://getbootstrap.com/
 
 Please enter your Netatmo login data in /inc/contants.php
 
