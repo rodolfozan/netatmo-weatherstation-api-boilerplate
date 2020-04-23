@@ -6,8 +6,8 @@ header('Content-Type: text/html; charset=utf8');
 	require_once("classes/language.php");
 
 // Set language
-	$language = new language(LANGUAGE);
-    $lang = $language->translate();
+        $language = new language(LANGUAGE);
+        $lang = $language->translate();
 
 // Netatmo API Start
 
