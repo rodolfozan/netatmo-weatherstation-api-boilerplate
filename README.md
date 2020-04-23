@@ -24,4 +24,4 @@ A live example of the boilerplate can be seen at [my boilerplate website](http:/
 
 ### Boilerplate Screenshot:
 
-
+![Image of Boilerplate](https://station.cyberninja.de/na-api/screen-na-boilerplate.png)
