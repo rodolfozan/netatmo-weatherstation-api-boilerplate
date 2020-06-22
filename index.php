@@ -195,117 +195,117 @@ header('Content-Type: text/html; charset=utf8');
 	</div>
 	
 	<div class="container">
-	  <div class="row row-cols-4">
-		<div class="col">
+	  <div class="row">
+		<div class="col-md-3">
 			<div class="alert alert-warning" role="alert">
-			  <?php echo $outdoor_name . " <font class='small'>" . strftime("%H:%M:%S", $outdoor_time) . "</font>"?>
+			  <?php echo $aussen_name . " <font class='small'>" . strftime("%H:%M:%S", $aussen_zeit) . "</font>"?>
 			</div>
 			<table class="table table-bordered">
 			  <tr>
 			    <td><span class="fas fa-thermometer-full"></span></td>
-				<td><?php echo $lang->Outdoor->Temperature ?></td>
-				<td><?php echo $outdoor_temperature ?>° C</td>
+				<td>Temperatur</td>
+				<td><?php echo $aussen_temperatur ?>° C</td>
 			  </tr>
 			  <tr>
 			    <td><span class="fas fa-water"></span></td>
-				<td><?php echo $lang->Outdoor->Humidity ?></td>
-				<td><?php echo $outdoor_humidity ?> %</td>
+				<td>Luftfeuchte</td>
+				<td><?php echo $aussen_luftfeuchte ?> %</td>
 			  </tr>
 			  <tr>
 			    <td><span class="fas fa-thermometer-quarter"></span></td>
-				<td><?php echo $lang->Outdoor->TempMin ?></td>
-				<td><?php echo $outdoor_temperature_min ?>° C</td>
+				<td>Temp min</td>
+				<td><?php echo $aussen_temperatur_min ?>° C</td>
 			  </tr>
 			  <tr>
 			    <td><span class="fas fa-thermometer-three-quarters"></span></td>
-				<td><?php echo $lang->Outdoor->TempMax ?></td>
-				<td><?php echo $outdoor_temperature_max ?>° C</td>
+				<td>Temp max</td>
+				<td><?php echo $aussen_temperatur_max ?>° C</td>
 			  </tr>
 			</table>
 		</div>
-		<div class="col">
+		<div class="col-md-3">
 			<div class="alert alert-danger" role="alert">
-			  <?php echo $indoor_name  . " <font class='small'>" . strftime("%H:%M:%S", $indoor_time) . "</font>"?>
+			  <?php echo $innen_name  . " <font class='small'>" . strftime("%H:%M:%S", $innen_zeit) . "</font>"?>
 			</div>
 			<table class="table table-bordered">
 			  <tr>
 			    <td><span class="fas fa-thermometer-full"></span></td>
-				<td><?php echo $lang->Indoor->Temperature ?></td>
-				<td><?php echo $indoor_temperature ?>° C</td>
+				<td>Temperatur</td>
+				<td><?php echo $innen_temperatur ?>° C</td>
 			  </tr>
 			  <tr>
 			    <td><span class="fas fa-water"></span></td>
-				<td><?php echo $lang->Indoor->Humidity ?></td>
-				<td><?php echo $indoor_humidity ?> %</td>
+				<td>Luftfeuchte</td>
+				<td><?php echo $innen_luftfeuchte ?> %</td>
 			  </tr>
 			  <tr>
 			    <td><span class="fas fa-thermometer-quarter"></span></td>
-				<td><?php echo $lang->Indoor->TempMin ?></td>
-				<td><?php echo $indoor_temperature_min ?>° C</td>
+				<td>Temp min</td>
+				<td><?php echo $innen_temperatur_min ?>° C</td>
 			  </tr>
 			  <tr>
 			    <td><span class="fas fa-thermometer-three-quarters"></span></td>
-				<td><?php echo $lang->Indoor->TempMax ?></td>
-				<td><?php echo $indoor_temperature_max ?>° C</td>
+				<td>Temp max</td>
+				<td><?php echo $innen_temperatur_max ?>° C</td>
 			  </tr>
 			  <tr>
 			    <td><span class="fas fa-poo"></span></td>
-				<td><?php echo $lang->Indoor->Co2 ?></td>
-				<td><?php echo $indoor_co2 ?> ppm</td>
+				<td>Co2 Gehalt</td>
+				<td><?php echo $innen_co2 ?> ppm</td>
 			  </tr>
 			  <tr>
 			    <td><span class="fas fa-bell"></span></td>
-				<td><?php echo $lang->Indoor->NoiseLevel ?></td>
-				<td><?php echo $indoor_noise ?> db</td>
+				<td>Lautstärke</td>
+				<td><?php echo $innen_lautstaerke ?> db</td>
 			  </tr>
 			</table>
 		</div>
-		<div class="col">
+		<div class="col-md-3">
 			<div class="alert alert-success" role="alert">
-			  <?php echo $wind_name  . " <font class='small'>" . strftime("%H:%M:%S", $wind_time) . "</font>"?>
+			  <?php echo $wind_name  . " <font class='small'>" . strftime("%H:%M:%S", $wind_zeit) . "</font>"?>
 			</div>
 			<table class="table table-bordered">
 			  <tr>
 			    <td><span class="fas fa-wind"></span></td>
-				<td><?php echo $lang->Windmeter->Wind ?></td>
-				<td><?php echo $wind_speed ?> km/h</td>
+				<td>Wind</td>
+				<td><?php echo $wind_geschwindigkeit ?> km/h</td>
 			  </tr>
 			  <tr>
 			    <td><span class="fas fa-compass"></span></td>
-				<td><?php echo $lang->Windmeter->WindDir ?></td>
-				<td><?php echo getWindPlainText($wind_direction) ?> </td>
+				<td>Windrichtung</td>
+				<td><?php echo getWindKlarText($wind_richtung) ?> </td>
 			  </tr>
 			  <tr>
 			    <td><span class="fas fa-wind"></span></td>
-				<td><?php echo $lang->Windmeter->Gusts ?></td>
-				<td><?php echo $gusts_speed ?> km/h</td>
+				<td>Böen</td>
+				<td><?php echo $wehen_geschwindigkeit ?> km/h</td>
 			  </tr>
 			  <tr>
 			    <td><span class="fas fa-compass"></span></td>
-				<td><?php echo $lang->Windmeter->GustsDir ?></td>
-				<td><?php echo getWindPlainText($gusts_direction) ?> </td>
+				<td>Böenrichtung</td>
+				<td><?php echo getWindKlarText($wehen_richtung) ?> </td>
 			  </tr>
 			</table>
 		</div>
-		<div class="col">
+		<div class="col-md-3">
 			<div class="alert alert-primary" role="alert">
-			  <?php echo $rain_name  . " <font class='small'>" . strftime("%H:%M:%S", $rain_time) . "</font>"?>
+			  <?php echo $regen_name  . " <font class='small'>" . strftime("%H:%M:%S", $regen_zeit) . "</font>"?>
 			</div>		
 			<table class="table table-bordered">
 			  <tr>
 			    <td><span class="fas fa-cloud-rain"></span></td>
-				<td><?php echo $lang->RainGauge->Rain ?></td>
-				<td><?php echo $rain_now ?> mm/h</td>
+				<td>Regen</td>
+				<td><?php echo $regen_aktuell ?> mm/h</td>
 			  </tr>
 			  <tr>
 			    <td><span class="fas fa-cloud-showers-heavy"></span></td>
-				<td><?php echo $lang->RainGauge->RainLastHr ?></td>
-				<td><?php echo $rain_last_hr ?> mm</td>
+				<td>Letzte Std.</td>
+				<td><?php echo $regen_letzte_std ?> mm</td>
 			  </tr>
 			  <tr>
 			    <td><span class="fas fa-cloud-showers-heavy"></span></td>
-				<td><?php echo $lang->RainGauge->RainLast24Hr ?></td>
-				<td><?php echo $rain_last_24hr ?> mm</td>
+				<td>Letzte 24 Std.</td>
+				<td><?php echo $regen_letzte_24std ?> mm</td>
 			  </tr>
 			  
 			</table>
