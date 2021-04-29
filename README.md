@@ -20,8 +20,8 @@ Available languages: "de", "en", "es"
 
 ### Demo
 
-A live example of the boilerplate can be seen at [my boilerplate website](http://station.cyberninja.de/na-api/Netatmo-api/) 
+A live example of the boilerplate can be seen at [my boilerplate website](https://console.wetter-beuren.de/na-api/Netatmo-api/) 
 
 ### Boilerplate Screenshot:
 
-![Image of Boilerplate](https://station.cyberninja.de/na-api/screen-na-boilerplate.png)
+![Image of Boilerplate](https://console.wetter-beuren.de/na-api/screen-na-boilerplate.png)
